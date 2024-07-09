@@ -1,0 +1,59 @@
+---
+title: "The effect of oral caffeine intake on the perceived wakefulness in individuals with and without ADHD"
+subtitle: "Scientific Writing"
+author: Tjorben Nawroth^[University of Lübeck, tjorben.nawroth@student.uni-luebeck.de]
+date: today
+toc: true
+format: pdf
+editor: visual
+engine: knitr
+abstract: "Abstract"
+bibliography: "references/references.bib"
+---
+
+# Introduction
+
+# Methods
+
+# Results
+
+To investigate a possible correlation between the neurobiochemistry of ADHD and the effect of caffeine on perceived wakefulness, we recruited twelve healthy individuals and twelve individuals diagnosed with ADHD. Both groups were equally split into a group that was administered 30 mg of caffeine in the form of coffee and a group that was given the same amount of decaffeinated coffee, minimizing the possible effects of other compounds on our measured parameter.
+
+Our measurements revealed a significant correlation between caffeine intake and perceived wakefulness in healthy individuals (average increase of $30 \%$, $p = 0.005$) while not showing any significant differences for the group of ADHD patients (no increase / decrease, $p = 0.81$) as shown in @fig-plot. This has also been corroborated by previous studies. [@leon_effects_2000]
+
+In summary, we found that neurotypical individuals display a significant stimulatory response to oral caffeine consumption while individuals with ADHD did not show signs of increased wakefulness after intake of 30 mg of caffeine.
+
+# Discussion
+
+# Declaration of Interests
+
+The authors declare no competing interests.
+
+# Author Contributions
+
+# Figures {.appendix}
+
+```{r}
+#| echo: false
+#| warning: false
+#| label: fig-plot
+#| fig-cap: "Effect of oral caffeine intake on the perceived wakefulness of healthy individuals and ADHD patients. Caffeine group was administered 30 mg of caffeine in form of coffee. Placebo group was administered decaffeinated coffee. 100% perceived wakefulness corresponds to normal wake alertness. Twelve individuals in each health status group. Six individuals per application. NS. = Not significant (P > 0.05); ** = Significant (P <= 0.01)"
+
+library("tidyverse")
+library("dplyr")
+library("ggsignif")
+library("ggpubr")
+
+set1 <- read.csv("data/set1.csv")
+
+ggplot(data = set1, aes(x = Group, y = Wakefulness)) +
+  geom_boxplot() +
+  facet_wrap(~Status) +
+  geom_signif(comparisons = list(c("Placebo", "Caffeine")), map_signif_level = TRUE, tip_length = 0.1, y_position = 142) +
+  stat_compare_means(label.x = 1.21, label.y = 152) +
+  ylim(90, 155) +
+  labs(x = "Application", y = "Perceived wakefulness (%)") + 
+  theme_bw()
+```
+
+# References
