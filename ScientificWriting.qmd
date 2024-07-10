@@ -50,11 +50,18 @@ These findings lay the ground work for molecular investigations into the interac
 
 # Introduction
 ADHD is one of the most widespread neurodevelopmental disorders worldwide. [@abdelnourADHDDiagnosticTrends2022]
-The current hypothesis for the neurobiochemical basis of ADHD is a disregulation of the dopamine / noradrenalin levels in certain brain areas like the prefrontal cortex, leading to executive dysfunction and other associated symptoms. [@purper-ouakilNeurobiologyAttentionDeficit2011]
-One of the most effective treatment options for ADHD is psychostimulant medication
-Caffeine is the most widely consumed stimulant drug worldwide.
-Therefore many people with ADHD consume caffeine.
-Caffeine seems to have paradoxical effects in patients with ADHD.
+The current hypothesis for the neurobiochemical basis of ADHD is a disregulation of the dopamine / noradrenalin levels in certain brain regions like the prefrontal cortex, leading to executive dysfunction and other associated symptoms. [@purper-ouakilNeurobiologyAttentionDeficit2011]
+This is where the first-line treatment option of stimulant medication takes effect by increasing the levels of the affected neurotransmitters to physiological normal levels. [@mechlerEvidencebasedPharmacologicalTreatment2022]
+
+Caffeine is the most widely consumed psychoactive drug worldwide and belongs, just like most ADHD medication, to the category of stimulants. [@ferreCaffeineSubstanceUse2013]
+This leads to many ADHD patients as well as individuals with undiagnosed ADHD to self-medicate with caffeine, as it has an overlapping effect spectrum with commonly prescribed ADHD medication. [@agostonSelfMedicationADHDSymptoms2022]
+
+Paradoxically many ADHD patients (some healthy individuals as well) experience no increased wakefulness or even a tiring effect of caffeine. [@WhyDoesCoffee2021]
+One proposed hypothesis for this paradoxical effect is that the stimulating effect of caffeine decreases the neurotransmitter imbalance present in ADHD patients, decreasing self-stimulating behaviour like racing thoughts or hyperactivity, promoting calmness and as a result tiredness. [@consultingWhyDoesCoffee2023]
+
+However besides hypotheses, the paradoxical effects of caffeine in individuals with ADHD remain poorly understood and could not be proven until now.
+Here we show, using a randomized double-blind placebo-controlled trial, that ADHD patients do not show statistically significant increased alertness from caffeine consumption, while healthy individuals do.
+These findings will help understand the neurobiochemical basis of ADHD and further our understanding on why and how stimulant medication can be used to alleviate ADHD symptoms.
 
 # Methods
 
@@ -71,7 +78,7 @@ Our measurements revealed a significant correlation between caffeine intake and
 perceived wakefulness in healthy individuals (average increase of $30 \%$, $p =
 0.005$) while not showing any significant differences for the group of ADHD
 patients (no increase / decrease, $p = 0.81$) as shown in @fig-plot. This has
-also been corroborated by previous studies. [@leon_effects_2000]
+also been corroborated by previous studies. [@leonEffectsCaffeineCognitive2000]
 
 In summary, we found that neurotypical individuals display a significant
 stimulatory response to oral caffeine consumption while individuals with ADHD
