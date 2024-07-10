@@ -1,5 +1,5 @@
 ---
-title: "The effect of oral caffeine intake on the perceived wakefulness in individuals with and without ADHD"
+title: "The effect of oral caffeine intake on the perceived wakefulness in ADHD patients"
 subtitle: "Scientific Writing Exercise"
 author:
  - name: Tjorben Nawroth
@@ -48,43 +48,91 @@ Paradoxical effects of caffeine in disorders of the dopaminergic / noradrenergic
 We found a statistically significant difference in the effect of caffeine intake on the perceived wakefulness of ADHD patients and healthy individuals using a double-blind placebo-controlled trial, showing no mean increase in perceived wakefulness for ADHD patients.
 These findings lay the ground work for molecular investigations into the interactions of caffeine and the dopaminergic / noradrenergic systems, especially in disorders involving these neuronal pathways, and may even contribute to further our understanding of the biochemical basis of these disorders on a neurological level.
 
+\newpage
+
 # Introduction
 ADHD is one of the most widespread neurodevelopmental disorders worldwide. [@abdelnourADHDDiagnosticTrends2022]
 The current hypothesis for the neurobiochemical basis of ADHD is a disregulation of the dopamine / noradrenalin levels in certain brain regions like the prefrontal cortex, leading to executive dysfunction and other associated symptoms. [@purper-ouakilNeurobiologyAttentionDeficit2011]
-This is where the first-line treatment option of stimulant medication takes effect by increasing the levels of the affected neurotransmitters to physiological normal levels. [@mechlerEvidencebasedPharmacologicalTreatment2022]
+This is where the first-line treatment option of stimulant medication take effect by increasing the levels of the affected neurotransmitters to physiological normal levels. [@mechlerEvidencebasedPharmacologicalTreatment2022]
 
 Caffeine is the most widely consumed psychoactive drug worldwide and belongs, just like most ADHD medication, to the category of stimulants. [@ferreCaffeineSubstanceUse2013]
 This leads to many ADHD patients as well as individuals with undiagnosed ADHD to self-medicate with caffeine, as it has an overlapping effect spectrum with commonly prescribed ADHD medication. [@agostonSelfMedicationADHDSymptoms2022]
 
 Paradoxically many ADHD patients (some healthy individuals as well) experience no increased wakefulness or even a tiring effect of caffeine. [@WhyDoesCoffee2021]
-One proposed hypothesis for this paradoxical effect is that the stimulating effect of caffeine decreases the neurotransmitter imbalance present in ADHD patients, decreasing self-stimulating behaviour like racing thoughts or hyperactivity, promoting calmness and as a result tiredness. [@consultingWhyDoesCoffee2023]
-
-However besides hypotheses, the paradoxical effects of caffeine in individuals with ADHD remain poorly understood and could not be proven until now.
+However, these paradoxical effects of caffeine in individuals with ADHD remain poorly understood and could not be proven until now.
 Here we show, using a randomized double-blind placebo-controlled trial, that ADHD patients do not show statistically significant increased alertness from caffeine consumption, while healthy individuals do.
 These findings will help understand the neurobiochemical basis of ADHD and further our understanding on why and how stimulant medication can be used to alleviate ADHD symptoms.
 
+\newpage
+
 # Methods
 
+## Participants
+All participants in the ADHD cohort were ADHD patients randomly recruited from the "Zentrum für Integrative Psychiatrie" (ZIP) at the Universität zu Lübeck.
+The control cohort was sourced by picking random individuals from the population registry of Lübeck -- making sure they were not diagnosed with ADHD or other psychiatric conditions.
+Pregnant people were excluded from the study.
+It was made sure that the age and gender composition of the control group did not deviate more than 5 % from the ADHD group, before commencing with the trial.
+Both groups (Caffeine, Placebo) consisted of 12 individuals, 6 individuals from the ADHD cohort and 6 individuals from the control cohort -- age- and gender-matched to a maximum of 5 % deviation. 
+
+## Trial preparation {#sec-trial_preparation}
+Before administration of caffeine or placebo, a baseline wakefulness level was established for each individual.
+For this, three reaction time tests were performed sequentially using a visual reaction time test device developed by Seidle Et al. after the participant subjectively self-assessed to be at their usual full wakefulness and alertness (100 %) in a timeframe of at most two hours after waking up in the morning. [@seidleSparkfunReaction_Timer2018]
+This serves as proxy data for wakefulness, that is less subjective than the self-assessment.
+Afterwards the mean reaction time was recorded for each participant.
+Establishing the baseline wakefulness level did not take place on the same day as administration of caffeine or placebo.
+
+## Administration of caffeine or placebo
+One hour after waking up in the morning, it was made sure, that all participants were feeling well rested and in an overall good physical and psychological condition.
+Ninety minutes after waking up, the participants in the caffeine group were administered caffeine orally onto an empty stomach in form of a cup of caffeinated coffee (300 ml) containing 30 mg of caffeine.
+The participants in the placebo group were administered a cup of decaffeinated coffee (300 ml) onto an empty stomach ninety minutes after waking up.
+
+## Wakefulness assessment
+The wakefulness was assessed one hour after administration of caffeine or placebo.
+First a subjective self-assessment of each participants wakefulness on a scale from 0% (= Sleeping) to 150% (= Hyper-alert) was recorded.
+Afterwards three sequential visual reaction time tests were performed, as described in the section "Trial preparation", and the mean reaction time recorded. [@seidleSparkfunReaction_Timer2018]
+
+## Calculation of perceived wakefulness
+After the trial was completed, the perceived wakefulness score (%) for each participant was calculated.
+For this the formula in @eq-calculation was used.
+
+$$
+\hat{W}= \frac{W'+\min((1+\frac{\bar{t}_n-\bar{t}'}{\bar{t}_n})*100 \%, 150 \%)}{2}
+$$ {#eq-calculation}
+
+Here $\hat{W}$ stands for the calculated perceived wakefulness level based on the self-assessed wakefulness level $W'$ after the trial and scaled reaction time difference between the mean normal alert reaction time $\bar{t}_n$ and the mean reaction time after the trial $\bar{t}'$ weighted equally.
+
+\newpage
+
 # Results
+To investigate a possible correlation between the neurobiochemistry of ADHD and the effect of caffeine on perceived wakefulness, we recruited twelve healthy individuals and twelve individuals diagnosed with ADHD.
+Both groups were equally split into a group that was administered 30 mg of caffeine in the form of coffee and a group that was given the same amount of decaffeinated coffee, minimizing the possible effects of other compounds on our measured parameter.
 
-To investigate a possible correlation between the neurobiochemistry of ADHD and
-the effect of caffeine on perceived wakefulness, we recruited twelve healthy
-individuals and twelve individuals diagnosed with ADHD. Both groups were equally
-split into a group that was administered 30 mg of caffeine in the form of coffee
-and a group that was given the same amount of decaffeinated coffee, minimizing
-the possible effects of other compounds on our measured parameter.
-
-Our measurements revealed a significant correlation between caffeine intake and
-perceived wakefulness in healthy individuals (average increase of $30 \%$, $p =
+Interestingly, our measurements revealed a significant correlation between caffeine intake and
+perceived wakefulness in healthy individuals (average increase of 30 %, $p =
 0.005$) while not showing any significant differences for the group of ADHD
 patients (no increase / decrease, $p = 0.81$) as shown in @fig-plot. This has
 also been corroborated by previous studies. [@leonEffectsCaffeineCognitive2000]
 
 In summary, we found that neurotypical individuals display a significant
-stimulatory response to oral caffeine consumption while individuals with ADHD
-did not show signs of increased wakefulness after intake of 30 mg of caffeine.
+stimulatory response in wakefulness and alertness to oral caffeine consumption while individuals with ADHD did not show signs of increased wakefulness after administration of 30 mg of caffeine.
+
+\newpage
 
 # Discussion
+We aimed to investigate the effect of caffeine on wakefulness and altertness in ADHD patients.
+Our acquired data shows a clear difference in the effect of caffeine on wakefulness between healthy individuals and ADHD patients -- having little to no waking effect on ADHD patients.
+
+Why is caffeines wakefulness-promoting effect severely decreased in individuals with ADHD -- in some cases even paradoxically reversed?
+In our trial we observed that wakefulness increased significantly upon ingestion of caffeine in healthy individuals while having little to no effect in ADHD patients.
+This suggests that caffeine is exerting its effects in brain regions affected by the developmental imabalances causing ADHD and/or an important interaction between caffeine and the neurotransmitters dopamine and noradrenalin.
+A possible cause for the paradoxical effects of caffeine in ADHD is that the stimulating effect of caffeine decreases the neurotransmitter imbalance present in ADHD by indirectly influencing dopamine and noradrenalin release, decreasing self-stimulating behaviour like racing thoughts or hyperactivity, promoting calmness and as a result tiredness. [@fianiNeurophysiologyCaffeineCentral] [@perrotteEffectsCaffeineMain2023]
+This however, could be useful for treating the symptoms of ADHD.
+Even though the effect of caffeine may appear paradoxical from an outside perspective; caffeine still exerts its stimulating effects on ADHD patients, that are chronically under-stimulated -- in a neurobiochemical sense.
+The stimulating effects may simply present differently in ADHD patients and the calming effects could be desired, making it easier to concentrate on tasks and avoid distraction. [@perrotteEffectsCaffeineMain2023]
+
+In general our findings suggest that caffeins awakening effects are drastically reduced in ADHD patients and sometimes even reversed, making caffeine less applicable as a drug to reduce tiredness and fatigue. However, the seemingly paradoxical effects of caffeine in ADHD may hint at beneficial underlying effects on the dopaminergic / noradrenergic neuronal pathways, that are prime targets for further research.
+
+\newpage
 
 # Acknowledgements
 We thank the OMICS-Cluster of the ITSC at the Universität zu Lübeck for computational assistance.
@@ -99,13 +147,15 @@ Conceptualization, T.N.; Methodology, T.N.; Formal Analysis, T.N.; Investigation
 T.N.; Writing – Original Draft, T.N.; Writing – Review & Editing, T.N.; Project
 Administration, T.N.; Funding Acquisition, T.N.
 
+\newpage
+
 # Figures {.appendix}
 
 ```{r}
 #| echo: false
 #| warning: false
 #| label: fig-plot
-#| fig-cap: "Effect of oral caffeine intake on the perceived wakefulness of healthy individuals and ADHD patients. Caffeine group was administered 30 mg of caffeine in form of coffee. Placebo group was administered decaffeinated coffee. 100% perceived wakefulness corresponds to normal wake alertness. Twelve individuals in each health status group. Six individuals per application. NS. = Not significant (P > 0.05); ** = Significant (P <= 0.01)"
+#| fig-cap: "Caffeine's impact on wakefulness in ADHD patients vs. healthy individuals"
 
 library("tidyverse")
 library("dplyr")
@@ -120,8 +170,20 @@ ggplot(data = set1, aes(x = Group, y = Wakefulness)) +
   geom_signif(comparisons = list(c("Placebo", "Caffeine")), map_signif_level = TRUE, tip_length = 0.1, y_position = 142) +
   stat_compare_means(label.x = 1.21, label.y = 152) +
   ylim(90, 155) +
-  labs(x = "Application", y = "Perceived wakefulness (%)") + 
+  labs(x = "Administration", y = "Perceived wakefulness (%)") + 
   theme_bw()
 ```
 
+\newpage
+
 # References
+
+::: {#refs}
+:::
+
+\newpage
+
+# Figure Legends
+
+## Figure 1
+Effect of oral caffeine intake on the perceived wakefulness of healthy individuals and ADHD patients. Caffeine group was administered 30 mg of caffeine in form of coffee. Placebo group was administered decaffeinated coffee. 100% perceived wakefulness corresponds to normal wake alertness. Twelve individuals in each health status group. Six individuals per application. NS. = Not significant (P > 0.05); ** = Significant (P <= 0.01)
