@@ -1,35 +1,94 @@
 ---
 title: "The effect of oral caffeine intake on the perceived wakefulness in individuals with and without ADHD"
-subtitle: "Scientific Writing"
-author: Tjorben Nawroth^[University of Lübeck, tjorben.nawroth@student.uni-luebeck.de]
-date: today
-toc: true
-format: pdf
-editor: visual
+subtitle: "Scientific Writing Exercise"
+author:
+ - name: Tjorben Nawroth
+   email: tjorben.nawroth@student.uni-luebeck.de, nawroth@evolbio.mpg.de
+   phone: +4915731424511
+   corresponding: true
+   degrees: BSc
+   url: https://github.com/Tjorbenn
+   role: "Conceived and designed the study"
+   affiliations:
+    - name: Universität zu Lübeck
+      address: Ratzeburger Allee 160, 23562 Lübeck, Schleswig-Holstein, Germany
+      url: https://www.uni-luebeck.de
+    - name: Max-Planck-Institute for Evolutionary Biology
+      department: Max-Planck-Research Group Biological Clocks (Kaiser)
+      address: August-Thienemann-Straße 2, 24306 Plön, Schleswig-Holstein, Germany
+      url: https://www.evolbio.mpg.de/ 
+toc: false
+format:
+ titlepage-pdf:
+  titlepage: plain
+  coverpage: false
+  documentclass: elsarticle
+  classoption: ["oneside", "open=any"]
+  filecolor: black
+  linkcolor: black
+  citecolor: black
+  urlcolor: black
+  toccolor: black
+  fig_caption: true
+  include-in-header: header.tex
+papersize: a4
+mainfont: Arial
+fontsize: 12pt
+linestretch: 2
 engine: knitr
-abstract: "Abstract"
 bibliography: "references/references.bib"
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/elsevier-harvard.csl
 ---
 
+\linenumbers
+
+# Summary
+The paradoxon that caffeine has no effect or even decreases wakefulness is commonly described by Attention Deficit Hyperactivity Disorder (ADHD) patients as well as some healthy individuals.
+Paradoxical effects of caffeine in disorders of the dopaminergic / noradrenergic systems, like ADHD, may hint at non-stimulatory interactions of caffeine in these systems or adjacent neuronal pathways.
+We found a statistically significant difference in the effect of caffeine intake on the perceived wakefulness of ADHD patients and healthy individuals using a double-blind placebo-controlled trial, showing no mean increase in perceived wakefulness for ADHD patients.
+These findings lay the ground work for molecular investigations into the interactions of caffeine and the dopaminergic / noradrenergic systems, especially in disorders involving these neuronal pathways, and may even contribute to further our understanding of the biochemical basis of these disorders on a neurological level.
+
 # Introduction
+Caffeine is the most consumed drug worldwide as of 2019.
+ADHD is one of the most common neurodevelopmental disorders worldwide.
+Therefore many people with ADHD consume caffeine.
+Caffeine seems to have paradoxical effects in patients with ADHD.
 
 # Methods
 
 # Results
 
-To investigate a possible correlation between the neurobiochemistry of ADHD and the effect of caffeine on perceived wakefulness, we recruited twelve healthy individuals and twelve individuals diagnosed with ADHD. Both groups were equally split into a group that was administered 30 mg of caffeine in the form of coffee and a group that was given the same amount of decaffeinated coffee, minimizing the possible effects of other compounds on our measured parameter.
+To investigate a possible correlation between the neurobiochemistry of ADHD and
+the effect of caffeine on perceived wakefulness, we recruited twelve healthy
+individuals and twelve individuals diagnosed with ADHD. Both groups were equally
+split into a group that was administered 30 mg of caffeine in the form of coffee
+and a group that was given the same amount of decaffeinated coffee, minimizing
+the possible effects of other compounds on our measured parameter.
 
-Our measurements revealed a significant correlation between caffeine intake and perceived wakefulness in healthy individuals (average increase of $30 \%$, $p = 0.005$) while not showing any significant differences for the group of ADHD patients (no increase / decrease, $p = 0.81$) as shown in @fig-plot. This has also been corroborated by previous studies. [@leon_effects_2000]
+Our measurements revealed a significant correlation between caffeine intake and
+perceived wakefulness in healthy individuals (average increase of $30 \%$, $p =
+0.005$) while not showing any significant differences for the group of ADHD
+patients (no increase / decrease, $p = 0.81$) as shown in @fig-plot. This has
+also been corroborated by previous studies. [@leon_effects_2000]
 
-In summary, we found that neurotypical individuals display a significant stimulatory response to oral caffeine consumption while individuals with ADHD did not show signs of increased wakefulness after intake of 30 mg of caffeine.
+In summary, we found that neurotypical individuals display a significant
+stimulatory response to oral caffeine consumption while individuals with ADHD
+did not show signs of increased wakefulness after intake of 30 mg of caffeine.
 
 # Discussion
+
+# Acknowledgements
+We thank the OMICS-Cluster of the ITSC at the Universität zu Lübeck for computational assistance.
+We acknowledge financial support by the German Federal Ministry of Health.
 
 # Declaration of Interests
 
 The authors declare no competing interests.
 
 # Author Contributions
+Conceptualization, T.N.; Methodology, T.N.; Formal Analysis, T.N.; Investigation,
+T.N.; Writing – Original Draft, T.N.; Writing – Review & Editing, T.N.; Project
+Administration, T.N.; Funding Acquisition, T.N.
 
 # Figures {.appendix}
 
