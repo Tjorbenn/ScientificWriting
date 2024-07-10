@@ -49,8 +49,10 @@ We found a statistically significant difference in the effect of caffeine intake
 These findings lay the ground work for molecular investigations into the interactions of caffeine and the dopaminergic / noradrenergic systems, especially in disorders involving these neuronal pathways, and may even contribute to further our understanding of the biochemical basis of these disorders on a neurological level.
 
 # Introduction
-Caffeine is the most consumed drug worldwide as of 2019.
-ADHD is one of the most common neurodevelopmental disorders worldwide.
+ADHD is one of the most widespread neurodevelopmental disorders worldwide. [@abdelnourADHDDiagnosticTrends2022]
+The current hypothesis for the neurobiochemical basis of ADHD is a disregulation of the dopamine / noradrenalin levels in certain brain areas like the prefrontal cortex, leading to executive dysfunction and other associated symptoms. [@purper-ouakilNeurobiologyAttentionDeficit2011]
+One of the most effective treatment options for ADHD is psychostimulant medication
+Caffeine is the most widely consumed stimulant drug worldwide.
 Therefore many people with ADHD consume caffeine.
 Caffeine seems to have paradoxical effects in patients with ADHD.
 
